@@ -97,12 +97,9 @@
 		1474AE41206B4C3900523D66 /* ios-realestate */ = {
 			isa = PBXGroup;
 			children = (
-				1474AE42206B4C3900523D66 /* AppDelegate.swift */,
+				1474AE7E206B501200523D66 /* AppMain */,
+				1474AE7D206B500D00523D66 /* Resources */,
 				1474AE44206B4C3900523D66 /* ViewController.swift */,
-				1474AE46206B4C3900523D66 /* Main.storyboard */,
-				1474AE49206B4C3900523D66 /* Assets.xcassets */,
-				1474AE4B206B4C3900523D66 /* LaunchScreen.storyboard */,
-				1474AE4E206B4C3900523D66 /* Info.plist */,
 			);
 			path = "ios-realestate";
 			sourceTree = "<group>";
@@ -123,6 +120,25 @@
 				1474AE64206B4C3900523D66 /* Info.plist */,
 			);
 			path = "ios-realestateUITests";
+			sourceTree = "<group>";
+		};
+		1474AE7D206B500D00523D66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1474AE49206B4C3900523D66 /* Assets.xcassets */,
+				1474AE4E206B4C3900523D66 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1474AE7E206B501200523D66 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				1474AE42206B4C3900523D66 /* AppDelegate.swift */,
+				1474AE46206B4C3900523D66 /* Main.storyboard */,
+				1474AE4B206B4C3900523D66 /* LaunchScreen.storyboard */,
+			);
+			name = AppMain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
