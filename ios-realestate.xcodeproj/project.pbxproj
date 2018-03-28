@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		145DA139206B6DC00097EF15 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145DA138206B6DC00097EF15 /* PostTableViewCell.swift */; };
+		145DA13E206B713B0097EF15 /* post_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 145DA13D206B713B0097EF15 /* post_data.json */; };
 		1474AE43206B4C3900523D66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474AE42206B4C3900523D66 /* AppDelegate.swift */; };
 		1474AE45206B4C3900523D66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474AE44206B4C3900523D66 /* ViewController.swift */; };
 		1474AE48206B4C3900523D66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1474AE46206B4C3900523D66 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		1474AE4D206B4C3900523D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1474AE4B206B4C3900523D66 /* LaunchScreen.storyboard */; };
 		1474AE58206B4C3900523D66 /* ios_realestateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474AE57206B4C3900523D66 /* ios_realestateTests.swift */; };
 		1474AE63206B4C3900523D66 /* ios_realestateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474AE62206B4C3900523D66 /* ios_realestateUITests.swift */; };
+		1474AE83206B66A400523D66 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474AE82206B66A400523D66 /* PostViewController.swift */; };
+		1474AE85206B66B000523D66 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1474AE84206B66B000523D66 /* PostViewModel.swift */; };
 		37188CF62A8E0388E275C7E8 /* Pods_ios_realestate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50FF485BF350C4C230CE749 /* Pods_ios_realestate.framework */; };
 		A6F44A549865925C39F5E295 /* Pods_ios_realestateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD4F6CBF5E2010BF2069769 /* Pods_ios_realestateUITests.framework */; };
 		C36DAC4965A362C8D520EC20 /* Pods_ios_realestateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D65322B9B3C92072FBDF331 /* Pods_ios_realestateTests.framework */; };
@@ -37,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		145DA138206B6DC00097EF15 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		145DA13D206B713B0097EF15 /* post_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = post_data.json; sourceTree = "<group>"; };
 		1474AE3F206B4C3900523D66 /* ios-realestate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-realestate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1474AE42206B4C3900523D66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1474AE44206B4C3900523D66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +56,8 @@
 		1474AE5E206B4C3900523D66 /* ios-realestateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-realestateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1474AE62206B4C3900523D66 /* ios_realestateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_realestateUITests.swift; sourceTree = "<group>"; };
 		1474AE64206B4C3900523D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1474AE82206B66A400523D66 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		1474AE84206B66B000523D66 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		2FD4F6CBF5E2010BF2069769 /* Pods_ios_realestateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_realestateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA883E488DDB9060BF4CDA7 /* Pods-ios-realestateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-realestateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-realestateUITests/Pods-ios-realestateUITests.release.xcconfig"; sourceTree = "<group>"; };
 		92DD2D27CD56E9283B4CC8DA /* Pods-ios-realestateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-realestateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-realestateTests/Pods-ios-realestateTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +110,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		145DA13A206B71250097EF15 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				145DA13D206B713B0097EF15 /* post_data.json */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		145DA13F206B71A40097EF15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		1474AE36206B4C3900523D66 = {
 			isa = PBXGroup;
 			children = (
@@ -127,10 +150,10 @@
 		1474AE41206B4C3900523D66 /* ios-realestate */ = {
 			isa = PBXGroup;
 			children = (
+				1474AE7E206B501200523D66 /* AppMain */,
 				1474AE7F206B5EC200523D66 /* Presentation */,
 				1474AE81206B5EEE00523D66 /* Domain */,
 				1474AE80206B5EE200523D66 /* Data */,
-				1474AE7E206B501200523D66 /* AppMain */,
 				1474AE7D206B500D00523D66 /* Resources */,
 				1474AE44206B4C3900523D66 /* ViewController.swift */,
 			);
@@ -158,6 +181,7 @@
 		1474AE7D206B500D00523D66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				145DA13A206B71250097EF15 /* Sample */,
 				1474AE49206B4C3900523D66 /* Assets.xcassets */,
 				1474AE4E206B4C3900523D66 /* Info.plist */,
 			);
@@ -177,6 +201,9 @@
 		1474AE7F206B5EC200523D66 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				1474AE82206B66A400523D66 /* PostViewController.swift */,
+				1474AE84206B66B000523D66 /* PostViewModel.swift */,
+				145DA138206B6DC00097EF15 /* PostTableViewCell.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -184,6 +211,7 @@
 		1474AE80206B5EE200523D66 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				145DA13F206B71A40097EF15 /* Model */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -323,6 +351,7 @@
 			files = (
 				1474AE4D206B4C3900523D66 /* LaunchScreen.storyboard in Resources */,
 				1474AE4A206B4C3900523D66 /* Assets.xcassets in Resources */,
+				145DA13E206B713B0097EF15 /* post_data.json in Resources */,
 				1474AE48206B4C3900523D66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,6 +529,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1474AE85206B66B000523D66 /* PostViewModel.swift in Sources */,
+				1474AE83206B66A400523D66 /* PostViewController.swift in Sources */,
+				145DA139206B6DC00097EF15 /* PostTableViewCell.swift in Sources */,
 				1474AE45206B4C3900523D66 /* ViewController.swift in Sources */,
 				1474AE43206B4C3900523D66 /* AppDelegate.swift in Sources */,
 			);
@@ -671,11 +703,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z899367H3S;
 				INFOPLIST_FILE = "ios-realestate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "zuminternet.ios-realestate";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuminternet.mvvm.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -687,11 +720,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z899367H3S;
 				INFOPLIST_FILE = "ios-realestate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "zuminternet.ios-realestate";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zuminternet.mvvm.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
