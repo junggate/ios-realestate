@@ -1,16 +1,21 @@
 PODS:
+  - EVReflection (5.4.4):
+    - EVReflection/Core (= 5.4.4)
+  - EVReflection/Core (5.4.4)
   - RxCocoa (4.1.1):
     - RxSwift (~> 4.0)
   - RxSwift (4.1.1)
 
 DEPENDENCIES:
+  - EVReflection
   - RxCocoa
   - RxSwift
 
 SPEC CHECKSUMS:
+  EVReflection: 3f6d255f8173ec81a2a6aad81482f253cff82b55
   RxCocoa: fd0862fd2df95fa55562ad28ffd2522c25eb4a85
   RxSwift: c6e3b1c7b325c7d121cd4327e9d98b7ed746b570
 
-PODFILE CHECKSUM: 68e45b41b2314e64c84f58ced616b7191def9edc
+PODFILE CHECKSUM: a9511e190307d7acdb74835f3c9f65b4e20b4571
 
 COCOAPODS: 1.4.0
