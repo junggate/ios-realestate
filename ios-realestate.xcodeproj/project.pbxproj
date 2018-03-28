@@ -127,6 +127,9 @@
 		1474AE41206B4C3900523D66 /* ios-realestate */ = {
 			isa = PBXGroup;
 			children = (
+				1474AE7F206B5EC200523D66 /* Presentation */,
+				1474AE81206B5EEE00523D66 /* Domain */,
+				1474AE80206B5EE200523D66 /* Data */,
 				1474AE7E206B501200523D66 /* AppMain */,
 				1474AE7D206B500D00523D66 /* Resources */,
 				1474AE44206B4C3900523D66 /* ViewController.swift */,
@@ -169,6 +172,27 @@
 				1474AE4B206B4C3900523D66 /* LaunchScreen.storyboard */,
 			);
 			name = AppMain;
+			sourceTree = "<group>";
+		};
+		1474AE7F206B5EC200523D66 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1474AE80206B5EE200523D66 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1474AE81206B5EEE00523D66 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 		8B290798515844B2E53AF50E /* Frameworks */ = {
