@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MainTabBarView" customModule="rss_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="182"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzS-Me-eHg">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="182"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ND4-cf-XUu">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYh-a0-JEk">
+                                    <rect key="frame" x="0.0" y="5" width="125" height="34"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="icoBlogOff"/>
+                                    <state key="selected" image="icoBlogOn"/>
+                                    <state key="highlighted" image="icoBlogOn"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="halfCornerRadius" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5w-Tg-YYq">
+                                    <rect key="frame" x="125" y="5" width="125" height="34"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="icoHomeOff"/>
+                                    <state key="selected" image="icoHomeOn"/>
+                                    <state key="highlighted" image="icoHomeOn"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="halfCornerRadius" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQT-pe-kXD">
+                                    <rect key="frame" x="250" y="5" width="125" height="34"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" image="icoMyOff"/>
+                                    <state key="selected" image="icoMyOn"/>
+                                    <state key="highlighted" image="icoMyOn"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="halfCornerRadius" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="XFF-eV-pE7"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ND4-cf-XUu" secondAttribute="trailing" id="l4A-Bm-e52"/>
+                        <constraint firstItem="ND4-cf-XUu" firstAttribute="leading" secondItem="kzS-Me-eHg" secondAttribute="leading" id="nau-4B-QiK"/>
+                        <constraint firstItem="ND4-cf-XUu" firstAttribute="top" secondItem="kzS-Me-eHg" secondAttribute="top" id="ylC-iA-m0s"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="kzS-Me-eHg" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="0Yk-TO-bGx"/>
+                <constraint firstAttribute="bottom" secondItem="kzS-Me-eHg" secondAttribute="bottom" id="Bam-U8-pfE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="kzS-Me-eHg" secondAttribute="trailing" id="d1O-dQ-OWL"/>
+                <constraint firstItem="kzS-Me-eHg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="uOm-SB-ZgW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="blogButton" destination="VYh-a0-JEk" id="HJ1-AH-JLH"/>
+                <outlet property="homeButton" destination="i5w-Tg-YYq" id="hja-uq-pcc"/>
+                <outlet property="myButton" destination="BQT-pe-kXD" id="8qw-Ol-i9a"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="-170.01499250374815"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icoBlogOff" width="34" height="34"/>
+        <image name="icoBlogOn" width="34" height="34"/>
+        <image name="icoHomeOff" width="34" height="34"/>
+        <image name="icoHomeOn" width="34" height="34"/>
+        <image name="icoMyOff" width="34" height="34"/>
+        <image name="icoMyOn" width="34" height="34"/>
+    </resources>
+</document>

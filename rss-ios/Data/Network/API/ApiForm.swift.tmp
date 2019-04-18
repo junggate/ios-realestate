@@ -1,0 +1,32 @@
+//
+//  ApiForm.swift
+//  rss-ios
+//
+//  Created by JungMoon-Mac on 10/12/2018.
+//  Copyright © 2018 JungMoon. All rights reserved.
+//
+
+import UIKit
+import HandyJSON
+
+class <#var#>: ApiBase {
+    override init() {
+        super.init()
+        url = "\(ApiBase.host)/posts/\(defaultPostType)"
+        method = .get
+    }
+}
+
+class <#var#>Requst: ApiPageRequest {
+    var sort: String?
+    var order: String?
+    
+    required init() {}
+    
+}
+
+
+class <#var#>Response: ApiPageResponse {
+    var posts: [ApiPostListPostsResponse]?
+    required init() {}
+}
